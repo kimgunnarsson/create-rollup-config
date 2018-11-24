@@ -1,0 +1,22 @@
+{
+  "name": "create-rollup-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm pack && npm i create-rollup-config-0.0.1.tgz -g"
+  },
+  "author": "Kim Gunnarsson",
+  "license": "MIT",
+  "description": "",
+  "bin": {
+    "create-rollup-config": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^7.0.1",
+    "ncp": "^2.0.0",
+    "os": "^0.1.1"
+  }
+}
